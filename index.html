@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+        
+        <header>
+            <nav>
+                <ul>
+                    <li class="lefty" ><a href="#"> F E E D B A C K </a></li>
+                    <li class="righty" ><a href="#">Your Thought Matters</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="content">
+         
+          
+          <div style="width: 30%; float:left">
+           <div id="left">
+             <h1 style="text-align: center;">Details</h1><br><br>
+             <form id="myForm">
+              <label>First name:</label><br>
+              <input type="text" id="fname"><br><br>
+              <label>Middle name:</label><br>
+              <input type="text" id="mname"><br><br>
+              <label>Last name:</label><br>
+              <input type="text" id="lname"><br><br>
+              <label>Suggestions:</label><br>
+              <textarea type="text" id="suggestion"></textarea><br><br>
+              
+              <label>Gender:</label><br>
+              
+              <table>
+                  <th>
+                      <a href="#" onclick='show()'>+</a>
+                  </th>
+                  <th>
+                      <a href="#" onclick='clear()'>-</a>
+                  </th>
+              </table>
+              
+             </form>
+          </div>
+        </div>
+
+        <div style="width: 70%; float:right">
+           <div id="right">
+              <div id="feedback">
+                  <h1 style="text-align: center;">Feedbacks</h1><br><br>
+              </div>
+          </div>
+        </div>
+
+          
+        </div>
+        
+        
+        
+        <script src="javascript/script.js"></script>
+        
+        
+    </body>
+</html>
